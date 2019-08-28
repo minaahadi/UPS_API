@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2084efd0-d17d-4a58-861d-bc2ea2db667e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="C:\Users\ehsan\Desktop\UPS API\RatingPACKAGE\PACKAGEWebServices\SCHEMA-WSDLs\RateWS.wsdl" Protocol="file" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RateWebServiceSchema.xsd" MetadataType="Schema" ID="532c3f49-cdda-455d-aa4e-6d5672d9ef6d" SourceId="1" SourceUrl="file:///C:/Users/ehsan/Desktop/UPS API/RatingPACKAGE/PACKAGEWebServices/SCHEMA-WSDLs/RateWebServiceSchema.xsd" />
+    <MetadataFile FileName="common.xsd" MetadataType="Schema" ID="47f21cfe-b412-4534-bc3a-caa09dd2025f" SourceId="1" SourceUrl="file:///C:/Users/ehsan/Desktop/UPS API/RatingPACKAGE/PACKAGEWebServices/SCHEMA-WSDLs/common.xsd" />
+    <MetadataFile FileName="RateWS.wsdl" MetadataType="Wsdl" ID="2547a36e-497c-45bd-b2db-f17236f5cb87" SourceId="1" SourceUrl="file:///C:/Users/ehsan/Desktop/UPS API/RatingPACKAGE/PACKAGEWebServices/SCHEMA-WSDLs/RateWS.wsdl" />
+    <MetadataFile FileName="UPSSecurity.xsd" MetadataType="Schema" ID="8bf43004-cec3-4897-b82c-798c5cbefd20" SourceId="1" SourceUrl="file:///C:/Users/ehsan/Desktop/UPS API/RatingPACKAGE/PACKAGEWebServices/SCHEMA-WSDLs/UPSSecurity.xsd" />
+    <MetadataFile FileName="Error1.xsd" MetadataType="Schema" ID="d8070a13-abb9-417c-a16e-46e1566a1e5a" SourceId="1" SourceUrl="file:///C:/Users/ehsan/Desktop/UPS API/RatingPACKAGE/PACKAGEWebServices/SCHEMA-WSDLs/Error1.1.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

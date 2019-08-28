@@ -1,0 +1,30 @@
+﻿@using UPS_API.Models
+
+
+@model Rate_Package
+
+<div>
+    <table class="table table-bordered table-responsive table-hover">
+        <tr>
+            <th>Service Name </th>
+            <th>Transit Day </th>
+            <th>Price </th>
+
+        </tr>
+
+        @foreach (var item in Model.Response.RatedShipment)
+        {
+
+
+        <tr>
+            <td> @item.TimeInTransit.ServiceSummary.Service.Description</td>
+            <td> @DateTime.ParseExact(@item.TimeInTransit.ServiceSummary.EstimatedArrival.Arrival.Date, "yyyyMMdd", null).ToString("dd MMMM yyyy")</td>
+            <td> @item.TotalCharges.CurrencyCode @item.TotalCharges.MonetaryValue</td>
+
+        </tr>
+        }
+        </table>
+
+</div>
+
+    
